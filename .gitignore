@@ -37,7 +37,8 @@ build/
 *.zip
 *.tar.gz
 *.rar
-
+#Env File
+*.properties
 
 
 
