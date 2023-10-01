@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("admin/")
 public class LoginController {
     
-    @GetMapping("")
+    @GetMapping("login")
     public ModelAndView login()
     {
        ModelAndView modelAndView=new ModelAndView();
