@@ -24,10 +24,10 @@ public class LoginController {
        return modelAndView;
     }
     
-    @PostMapping("auth")
-    public ModelAndView loginAuth(@Valid LoginRequest request,BindingResult result)
+    @PostMapping("login")
+    public ModelAndView loginAuth()
     {
-        System.out.println("DAAA"+request.toString());
+        System.out.println("DAAA");
         
        ModelAndView modelAndView=new ModelAndView();
        
